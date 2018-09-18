@@ -1,0 +1,39 @@
+<!-- <div class="btn-group btn-group-toggle">
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.middle"> Middle
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.right"> Right
+  </label>
+  <button (click)="onClickMe()">Click me!</button>
+  <button (click)="getKeys()">get Images!</button>
+</div>
+<br/>
+<p>输入百度地址信息：</p>
+<input type="url" [(ngModel)]="srcFilter" style="height: 50px; width: 500px"/>
+<hr>
+<h1>{{srcUrl}}</h1>
+<pre>{{keys | json}}</pre> -->
+<!-- <br>
+<ckeditor></ckeditor>
+
+<ng-container *ngFor="let item of keys">
+  <div class="sermons-post">
+    <img src="http://localhost:8082/img/image?key={{item}}" alt="image"/>
+   </div>
+</ng-container> -->
+
+<div>
+  <div class="row">
+      <div class="col-md-3">
+          <records></records>
+      </div>
+      <div style="width: 1px; height: 100%;"/>
+      <div class="col-md-8">
+        <ckeditor></ckeditor>
+      </div>
+  </div>
+</div>
