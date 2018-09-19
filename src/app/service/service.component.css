@@ -1,14 +1,78 @@
-/* .carousel {
-    height: 200px;
-} */
-.appcontainer {
-    width: 75%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 ul li {
     padding: 0px 10px;
+}
+
+.position {
+    width: 100%;
+    margin-bottom: 65px;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    margin-top: 20px;
+    background: url(../../assets/images/bg.jpg) no-repeat scroll center center/100% 100%;
+}
+
+.position span {
+    margin-left: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+.sub-nav ul li {
+    height: 52px;
+    line-height: 45px;
+    margin-top: 2px;
+    font-size: 15px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+}
+
+
+
+ul li a {
+    width: 109px;
+    color: #1c68ae;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    /* margin-left: 0px; */
+    text-align: center;
+    border: 1px solid #fff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+ul li:hover a, .sub-nav ul li.act a {
+    border: 1px solid #1a91ff;
+    color: #1a91ff;
+    margin-left: 18px;
+    font-size: 15px;
+}
+ul .activeli {
+    border-left: 4px solid #1a91ff;
+}
+ul .activeli a {
+    border: 1px solid #1a91ff;
+    color: #1a91ff;
+    margin-left: 18px;
+    font-size: 15px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+}
+
+.sub-nav {
+    width: 236px;
+    float: left;
+    position: relative;
+    background: url(../../assets/images/sub-nav.png) no-repeat;
+    height: auto;
+    min-height: 52px;
 }

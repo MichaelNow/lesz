@@ -44,8 +44,8 @@ ul li {
 }
 
 .active_module {
-    color: red;
-    background-color: royalblue;
+    color: rgb(7, 95, 184);
+    /* background-color: dodgerblue; */
 }
 
 .nav-item {
@@ -58,4 +58,60 @@ ul li {
     white-space: nowrap;
     float:right;
     width: 200px
+}
+
+ul li p a {
+    color: #fff!important;
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    width: 110px;
+    float: left;
+    word-break:keep-all;             /* 不换行 */
+white-space:nowrap; 
+    
+}
+
+ul li p {
+    background-color: #1d5e9a;
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 15;
+    margin-left: -17px;
+    padding: 10px 0px;
+    margin-top: 5px;
+}
+ul li a:hover {
+    color: #1c68ae;
+}
+ul li p a:hover {
+    background-color: #2877c1;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 35px;
+    text-align: center;
+    position: relative;
+}
+.nav_dropdown p {
+    display: none;
+}
+
+.nav_dropdown:hover p {
+    display: block;
+}
+
+.nav_nav {
+	width: 220px;
 }

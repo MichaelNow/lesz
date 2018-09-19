@@ -2,7 +2,6 @@
     <div class="appcontainer">
         <span>瑞仕登 . 猎头机构 - 顶尖的一站式人力资源方案解决者！</span>
         <b>7X24小时在线服务：400-1801-668</b>
-        
     </div>
 </div>
 <div class="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,32 +13,36 @@
                 <img src="../../assets/images/logo.jpg" alt="埃摩森猎头公司"  style="margin-top: 15px;"></a>
             </div>
             <div style="width:800px; float: left;">
-                <div  id="navbarSupportedContent">
+                <div id="navbarSupportedContent">
                         <!-- style="position:absolute;bottom:0px" -->
                     <ul class="navbar-nav"style="flex-direction: row; position:absolute;bottom:10px">
-                        <li class="active" [ngClass]="{active_module: selectIndex.includes('home')}" style="margin-left:20px;padding-left:30px; padding-right:30px">
-                            <a class="nav-link" href="#"><font size="4px">首页</font> <span class="sr-only">(current)</span></a>
+                        <li  style="margin-left:20px;padding-left:30px; padding-right:30px">
+                            <a class="nav-link" href="#"><font size="4px" [ngClass]="{active_module: selectIndex.includes('home')}">首页</font></a>
                         </li>
-                        <li [ngClass]="{active_module: selectIndex.includes('about')}">
-                            <a class="nav-link" href="about" ><font size="4px">关于我们</font></a>
-                        </li>
-                        <li class="dropdown" [ngClass]="{active_module: selectIndex.includes('service')}">
-                            <a class="nav-link" href="service"><font size="4px">猎头服务</font></a>
-                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                            </a> -->
-                            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div> -->
-                        </li>
-                        <li [ngClass]="{active_module: selectIndex.includes('case')}">
-                            <a class="nav-link" href="case"><font size="4px">成功案例</font></a>
+                        <li class="nav_dropdown">
+                                <a class="nav-link" href="about" ><font size="4px" [ngClass]="{active_module: selectIndex.includes('about')}">关于我们</font></a>
+                                <p class="nav_nav">
+                                        <a href="/about/brief">企业介绍</a>
+                                        <a href="/about/state">企业动态</a>
+                                        <a href="/about/brand">企业品牌</a>
+                                        <a href="/about/style">企业风采</a>
+                                        <a href="/about/culture">企业文化</a>
+                                        <a href="/about/concept">产品理念</a>
+                                        <a href="/about/join">加入我们</a>
+                                        <a href="/about/contact">联系我们</a>
+                                    </p>
+                            </li>
+                        <li class = "nav_dropdown">
+                            <a class="nav-link" href="service"><font size="4px" [ngClass]="{active_module: selectIndex.includes('service')}">猎头服务</font></a>
+                            <p>
+                                <a href="/service/feature">服务特色</a>
+                                <a href="/service/content">服务内容</a>
+                                <a href="/service/process">服务流程</a>
+                                <a href="/service/area">服务领域</a>
+                            </p>
                         </li>
                         <li>
-                            <a class="nav-link" href=""><font size="4px">个人求职</font></a>
+                            <a class="nav-link" href="case"><font size="4px" [ngClass]="{active_module: selectIndex.includes('case')}">成功案例</font></a>
                         </li>
                     </ul>
                 </div>

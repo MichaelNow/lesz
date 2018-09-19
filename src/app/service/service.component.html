@@ -1,3 +1,22 @@
-<div class="navbar navbar-expand-lg navbar-light bg-light">
-    service
+<div>
+    <div class="position">
+        <div class="container">猎头服务<span>EXCELLENT SERVICE</span></div>
+    </div>
+    <div class="appcontainer">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sub-nav">
+                    <ul class="list-group">
+                        <li [ngClass]="{activeli:urlpath.includes('feature')}"><a href="/service/feature">服务特色</a></li>
+                        <li [ngClass]="{activeli:urlpath.includes('content')}"><a href="/service/content">服务内容</a></li>
+                        <li [ngClass]="{activeli:urlpath.includes('process')}"><a href="/service/process">服务流程</a></li>
+                        <li [ngClass]="{activeli:urlpath.includes('area')}"><a href="/service/area">服务领域</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
 </div>

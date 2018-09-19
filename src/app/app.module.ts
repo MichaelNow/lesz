@@ -13,6 +13,9 @@ import { CaseModule } from './case/case.module';
 import { ServiceModule } from './service/service.module';
 import {FooterModule} from './footer/footer.module';
 
+// import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -28,7 +31,7 @@ import {FooterModule} from './footer/footer.module';
     CaseModule,
     ServiceModule,
     FooterModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

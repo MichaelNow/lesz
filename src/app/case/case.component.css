@@ -1,14 +1,13 @@
-/* .carousel {
-    height: 200px;
-} */
-.appcontainer {
-    width: 75%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.position {
+    width: 100%;
+    margin-bottom: 65px;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    margin-top: 20px;
+    background: url(../../assets/images/bg.jpg) no-repeat scroll center center/100% 100%;
 }
 
-ul li {
-    padding: 0px 10px;
+.position span {
+    margin-left: 10px;
 }

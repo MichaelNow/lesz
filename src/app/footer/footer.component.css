@@ -89,3 +89,6 @@ li {
 div {
     display: block;
 }
+.footer_list ul li span {
+    margin-right: 18px;
+}
