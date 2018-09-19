@@ -2,14 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Roamer</title>
+  <title>WebHunter</title>
   <base href="/">
 
-  <script type="text/javascript" src="./assets/ckeditor/ckeditor.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="Stylesheet" href="./assets/css/animate.css"/>
+	<!-- <link type="text/css" rel="stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/css/style.css"> -->
+	<!-- <link type="text/css" rel="stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/css/style_hu.css"> -->
+	<!-- <link type="text/css" rel="stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/css/style_xiugai.css"> -->
+    <!-- <link rel="stylesheet" id="qiehuan" type="text/css" href="https://source.ibigdatastartup.com:53102/resources/front/css/henpai.css"> -->
+	<!-- <link type="text/css" rel="Stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/css/imageflow.css"> -->
+	<!-- <link type="text/css" rel="Stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/css/animate.css"> -->
+	  <!-- <link rel="stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/css/style_pdg.css"> -->
+    <!-- <link rel="stylesheet" href="https://source.ibigdatastartup.com:53102/resources/front/cssyz/validationEngine.jquery.css"> -->
+<style>
+    .container {
+        width: 1200px!important;
+        margin: 0 auto;
+    }
+    
+    @media only screen and (min-width: 100px) and (max-width: 1200px) {
+        html {
+            width: 1903px;
+        }
+        .container-fluid {
+            width: 1903px;
+        }
+        #footer {
+            width: 1903px;
+        }
+    }
+</style>
 </head>
 <body>
   <app-root></app-root>
 </body>
+<script>
+    $(function(){
+
+$('#carouselExampleIndicators').carousel({
+
+interval:3000
+
+});
+
+});
+
+$(function () {
+    $(".dropdown").mouseover(function () {
+        $(this).addClass("open");
+    });
+
+    $(".dropdown").mouseleave(function(){
+        $(this).removeClass("open");
+    })
+
+})
+</script>
 </html>
+

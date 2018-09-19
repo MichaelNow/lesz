@@ -1,0 +1,91 @@
+.appcontainer{
+    width: 100%;
+}
+ul li {
+    padding: 0px 10px;
+}
+
+.footer {
+    margin-top: 85px;
+    background: #222;
+    height: 300px;
+    padding: 50px 0px;
+    width: 100%;
+}
+
+.service_list {
+	margin-top: 20px;
+	background: #e6e6e6;
+	border: 1px solid #ddd;
+}
+.service_list ul, .city_list ul, .about ul, .footer_bg {
+	width: 1260px;
+}
+
+.footer_list {
+    padding: 0px 20px;
+    border-left: 1px solid #393939;
+    height: 240px;
+    width: 200px;
+}
+
+.footer_tel {
+    width: 250px;
+    height: 162px;
+    display: block;
+    margin: -20px 33px 0px 0px;
+}
+
+.fleft {
+    float: left;
+}
+
+fieldset, img {
+    border: 0 none;
+}
+.footer_list h3 {
+    font-size: 16px;
+    color: #cbcbcb;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ul, ol, li {
+    list-style-type: none;
+}
+.footer_list ul li {
+    line-height: 30px;
+}
+ul, ol, li {
+    list-style-type: none;
+}
+
+.footer_list ul li a {
+    color: #aaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+div {
+    display: block;
+}
